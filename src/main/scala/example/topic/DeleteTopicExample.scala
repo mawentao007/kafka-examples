@@ -6,7 +6,7 @@ object DeleteTopicExample {
 
   //Delete topic functionality is beta in 0.8.1
   def main(args: Array[String]): Unit = {
-    var topicName = ""
+    var topicName = "test"
 
     if(args.length == 0) {
       println("topic name must be provided")

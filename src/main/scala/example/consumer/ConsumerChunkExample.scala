@@ -11,6 +11,6 @@ object ConsumerChunkExample {
     val consumer = ChunkConsumer(topicNames)
 
     val readResponse = consumer.read()
-    println(readResponse)
+    readResponse.foreach{case x => println(x)}
   }
 }
